@@ -1,0 +1,6 @@
+## 书信息
+demo:
+    book:
+        name: <圣墟.yml>
+        writer: 晨东
+        description: ${demo.book.writer}三天打鱼两天上网写${demo.book.name}
