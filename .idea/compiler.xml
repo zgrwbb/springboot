@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="1_helloworld" />
+        <module name="2_config" />
+        <module name="3_web" />
+        <module name="4_validate" />
         <module name="4_web_thymeleaf" />
         <module name="5_data_jpa" />
-        <module name="config" />
-        <module name="helloworld" />
-        <module name="validate" />
-        <module name="web" />
+        <module name="5_paging_sorting" />
       </profile>
     </annotationProcessing>
   </component>

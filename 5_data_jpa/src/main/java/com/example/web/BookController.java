@@ -81,6 +81,7 @@ public class BookController {
     /**
      * 获取修改book表单
      * 处理来自/book/update/{id} 的get请求
+     * PathVariable 路径变量 拿到id
      */
     @RequestMapping(value = "/update/{id}", method = RequestMethod.GET)
     public String updateBookForm(@PathVariable Long id, ModelMap modelMap) {
