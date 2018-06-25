@@ -1,6 +1,7 @@
 package com.example;
 
 import com.example.config.BookComponent;
+import com.spring4all.swagger.EnableSwagger2Doc;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -12,7 +13,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
  * @author bysocket
  * @date 26/09/2017
  */
-//@EnableSwagger2Doc
+@EnableSwagger2Doc
 @SpringBootApplication
 @EnableConfigurationProperties(BookComponent.class)
 public class ConfigApplication {

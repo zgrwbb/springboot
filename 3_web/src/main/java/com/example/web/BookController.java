@@ -9,8 +9,7 @@ import java.util.List;
 
 /**
  * Book 控制层
- *
- * Created by bysocket on 27/09/2017.
+ * @author wangbobo
  */
 @RestController
 @RequestMapping(value = "/book")

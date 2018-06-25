@@ -1,5 +1,8 @@
 package com.example.validate.serveice;
 
+
+
+
 import com.example.validate.domain.User;
 
 import java.util.List;
@@ -42,6 +45,7 @@ public interface UserService {
      * 编辑user
      *
      * @param user user
+     * @return User {@link User}
      */
     User updateUser(User user);
 

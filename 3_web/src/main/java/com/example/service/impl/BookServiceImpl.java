@@ -11,14 +11,16 @@ import java.util.Map;
 
 /**
  * Book 业务层实现
- *
- * Created by bysocket on 27/09/2017.
+ * @author wangbobo
  */
 @Service
 public class BookServiceImpl implements BookService {
 
-    // 模拟数据库，存储 Book 信息
-    // 第五章《﻿数据存储》会替换成 MySQL 存储
+
+    /**
+     * 模拟数据库，存储 Book 信息
+     * 第五章《﻿数据存储》会替换成 MySQL 存储
+     */
     private static Map<Long, Book> BOOK_DB = new HashMap<>(16);
 
     @Override

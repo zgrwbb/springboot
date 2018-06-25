@@ -5,7 +5,9 @@ import java.io.Serializable;
 /**
  * Book 实体类
  *
- * Created by bysocket on 27/09/2017.
+ *
+ * @author bysocket
+ * @date 27/09/2017
  */
 public class Book implements Serializable {
 

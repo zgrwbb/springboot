@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @date 2018/6/11 14:20
  */
 @Controller
-public class helloWorldController {
+public class HelloWorldController {
     @RequestMapping("helloworld")
     @ResponseBody
-    public String hellowrold() {
+    public String helloWorld() {
         return "Hello World!";
     }
 }

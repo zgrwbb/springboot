@@ -1,12 +1,15 @@
-package com.example.pagingsorting;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author wangbobo
+ */
 @SpringBootApplication
-public class Application {
+public class PageSort {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(PageSort.class, args);
     }
 }

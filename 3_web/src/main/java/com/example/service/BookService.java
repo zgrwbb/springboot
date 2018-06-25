@@ -6,12 +6,12 @@ import java.util.List;
 
 /**
  * Book 业务接口层
- *
- * Created by bysocket on 27/09/2017.
+ * @author wangbobo
  */
 public interface BookService {
     /**
      * 获取所有 Book
+     * @return  List<Book>
      */
     List<Book> findAll();
 
@@ -19,6 +19,7 @@ public interface BookService {
      * 新增 Book
      *
      * @param book {@link Book}
+     * @return Book {@link Book}
      */
     Book insertByBook(Book book);
 
@@ -26,6 +27,7 @@ public interface BookService {
      * 更新 Book
      *
      * @param book {@link Book}
+     * @return Book {@link Book}
      */
     Book update(Book book);
 
@@ -33,6 +35,7 @@ public interface BookService {
      * 删除 Book
      *
      * @param id 编号
+     *           @return Book {@link Book}
      */
     Book delete(Long id);
 
@@ -40,6 +43,7 @@ public interface BookService {
      * 获取 Book
      *
      * @param id 编号
+     *           @return Book {@link Book}
      */
     Book findById(Long id);
 }
