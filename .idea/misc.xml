@@ -5,6 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/1_helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/2_config/pom.xml" />
+        <option value="$PROJECT_DIR$/3_web/pom.xml" />
+        <option value="$PROJECT_DIR$/4_validate/pom.xml" />
         <option value="$PROJECT_DIR$/4_web_thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/5_data_jpa/pom.xml" />
         <option value="$PROJECT_DIR$/5_paging_sorting/pom.xml" />
