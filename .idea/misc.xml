@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/5_data_jpa/pom.xml" />
         <option value="$PROJECT_DIR$/5_paging_sorting/pom.xml" />
         <option value="$PROJECT_DIR$/6_cache_redis/pom.xml" />
+        <option value="$PROJECT_DIR$/7_elasticsearch/pom.xml" />
       </list>
     </option>
   </component>
