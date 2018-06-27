@@ -23,6 +23,7 @@
         <module>5_data_jpa</module>
         <!-- 第五章 分页牌组案例 -->
         <module>5_paging_sorting</module>
-
+        <!-- 第六章 缓存和redis -->
+        <module>6_cache_redis</module>
     </modules>
 </project>

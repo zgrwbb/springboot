@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/4_web_thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/5_data_jpa/pom.xml" />
         <option value="$PROJECT_DIR$/5_paging_sorting/pom.xml" />
+        <option value="$PROJECT_DIR$/6_cache_redis/pom.xml" />
       </list>
     </option>
   </component>

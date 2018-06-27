@@ -13,7 +13,11 @@
         <module name="4_web_thymeleaf" />
         <module name="5_data_jpa" />
         <module name="5_paging_sorting" />
+        <module name="6_cache_redis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
