@@ -8,12 +8,14 @@ import java.util.List;
 
 /**
  * cityservice
+ *
  * @author wangbobo
  * @date 2018/6/27 22:02
  */
 public interface CityService {
     /**
      * 保存城市
+     *
      * @param city city
      * @return cityId
      */
@@ -28,6 +30,7 @@ public interface CityService {
      * @return cityList
      */
     List<City> getCityByDescriptionAndScore(String description, Integer score);
+
     /**
      * OR 语句查询
      * 根据城市描述或城市评分查询城市列表
@@ -53,6 +56,7 @@ public interface CityService {
 
     /**
      * 根据城市描述分页查询城市列表
+     *
      * @param description 城市描述
      * @param pageable    pageable
      * @return cityPage
@@ -61,6 +65,7 @@ public interface CityService {
 
     /**
      * 根据城市描述分页查询城市列表 模糊查询
+     *
      * @param description 城市描述
      * @param pageable    pageable
      * @return cityPage
