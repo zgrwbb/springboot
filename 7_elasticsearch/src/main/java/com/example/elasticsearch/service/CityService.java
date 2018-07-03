@@ -2,7 +2,6 @@ package com.example.elasticsearch.service;
 
 import com.example.elasticsearch.domain.City;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
 
 import java.util.List;
 
@@ -46,10 +45,9 @@ public interface CityService {
      * 等同于下面2行注释代码
      *
      * @param description 城市描述
-     * @param pageable    pageable
      * @return cityPage
      */
-    Page<City> getCityByDescription(String description, Pageable pageable);
+    Page<City> getCityByDescription(String description);
 
     /*@Query("{\"bool\" : {\"must\" : {\"term\" : {\"description\" : \"?0\"}}}}")
     Page<City> findByDescription(String description, Pageable pageable);*/
@@ -58,17 +56,15 @@ public interface CityService {
      * 根据城市描述分页查询城市列表
      *
      * @param description 城市描述
-     * @param pageable    pageable
      * @return cityPage
      */
-    Page<City> getCityByDescriptionNot(String description, Pageable pageable);
+    Page<City> getCityByDescriptionNot(String description);
 
     /**
      * 根据城市描述分页查询城市列表 模糊查询
      *
      * @param description 城市描述
-     * @param pageable    pageable
      * @return cityPage
      */
-    Page<City> getCityByDescriptionLike(String description, Pageable pageable);
+    Page<City> getCityByDescriptionLike(String description);
 }

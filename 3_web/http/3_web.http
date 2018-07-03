@@ -1,0 +1,33 @@
+POST http://localhost:8081/book/create
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 111,
+  "name":"insert"
+}
+
+###
+
+PUT http://localhost:8081/book/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 111,
+  "name":"update"
+}
+
+<> 2018-06-19T034229.200.json
+
+###
+
+DELETE http://localhost:8081/book/delete/111
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-19T040554.200.json
+###
+

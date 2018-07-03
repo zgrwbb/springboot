@@ -1,0 +1,38 @@
+POST http://127.0.0.1:8080/city/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "id":"1",
+    "score":"5",
+    "name":"上海",
+    "description":"上海是个热城市"
+}
+###
+POST http://127.0.0.1:8080/city/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "id":"2",
+    "score":"4",
+    "name":"温岭",
+    "description":"温岭是个沿海城市"
+}
+
+###
+GET http://localhost:8080/city/getCityByDescriptionAndScore?description="上海是个热城市"&score=5
+Accept: */*
+
+###
+GET http://localhost:8080/city/getCityByDescriptionOrScore?description="222"&score=4
+Accept: */*
+
+###
+GET http://localhost:8080/city/getCityByDescription?description="222"
+Accept: */*
+
+###
+
