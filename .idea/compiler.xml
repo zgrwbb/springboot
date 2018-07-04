@@ -14,7 +14,8 @@
         <module name="5_data_jpa" />
         <module name="5_paging_sorting" />
         <module name="6_cache_redis" />
-        <module name="7_elasticsearch" />
+        <module name="7_elasticsearch_crud" />
+        <module name="7_elasticsearch_query" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

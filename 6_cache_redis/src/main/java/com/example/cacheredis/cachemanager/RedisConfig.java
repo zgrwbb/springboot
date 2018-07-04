@@ -37,7 +37,7 @@ public class RedisConfig extends CachingConfigurerSupport {
         cacheNames.add("my-redis-cache2");
 
         // 对每个缓存空间应用不同的配置
-        Map<String, RedisCacheConfiguration> configMap = new HashMap<>();
+        Map<String, RedisCacheConfiguration> configMap = new HashMap<>(2);
         configMap.put("my-redis-cache1", config);
         configMap.put("my-redis-cache2", config.entryTtl(Duration.ofSeconds(120)));
         // 使用自定义的缓存配置初始化一个cacheManager

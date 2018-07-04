@@ -1,4 +1,4 @@
-package com.example.elasticsearch.domain;
+package com.example.elasticsearchquery.domain;
 
 import org.springframework.data.elasticsearch.annotations.Document;
 
@@ -7,8 +7,9 @@ import java.util.Objects;
 
 /**
  * @author wangbobo
- * @date 2018/6/27 17:44
+ * @date 2018/7/4 11:15
  */
+@SuppressWarnings("ALL")
 @Document(indexName = "province", type = "city")
 public class City implements Serializable {
     private static final Long serialVersionUID = -1L;

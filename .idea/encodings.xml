@@ -9,7 +9,9 @@
     <file url="file://$PROJECT_DIR$/5_data_jpa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/5_paging_sorting" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/6_cache_redis" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/7_elasticsearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7_elasticsearch_crud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7_elasticsearch_query" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7_elasticsearch_query" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

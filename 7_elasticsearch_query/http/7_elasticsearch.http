@@ -35,4 +35,29 @@ GET http://localhost:8080/city/getCityByDescription?description="222"
 Accept: */*
 
 ###
+GET http://localhost:8080/city/getCityByDescriptionNot?description="温岭"
+Accept: */*
 
+###
+
+GET http://localhost:8081/city/getCityByDescriptionLike?description="温岭"
+Accept: */*
+
+###
+
+POST http://localhost:8081/city/saveCity
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id":"1",
+  "score":"5",
+  "name":"上海",
+  "description":"上海是个热城市"
+}
+
+###
+GET http://localhost:8081/city/searchCity?pageNumber=0&pageSize=2&searchContent="温岭是个"
+Accept: */*
+###

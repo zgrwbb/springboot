@@ -39,11 +39,10 @@ public class BookServiceImpl implements BookService {
 
     /**
      * 注解 @Cacheable
-     *
+     * 注解 @Cacheable(value = "bookList",key = "#*")
      * @return bookList
      */
     @Override
-//    @Cacheable(value = "bookList",key = "#*")
     public List<Book> findAll() {
         return bookRepository.findAll();
     }
@@ -54,10 +53,10 @@ public class BookServiceImpl implements BookService {
      * 使用方法参数时我们可以直接使用“#参数名”或者“#p参数index”---例 #p0。
      * 下面是几个使用参数作为key的示例。
      * 本方法的#p0 相当于 #id
+     * 注解: @Cacheable(key = "#p0")
      * @param id bookId
      * @return book
      */
-//    @Cacheable(key = "#p0")
     @Cacheable(key = "#id")
     @Override
     public Book findById(Long id) {
@@ -82,11 +81,11 @@ public class BookServiceImpl implements BookService {
      * 这里#p0 就是book,#p0.id 就是book.id 相当于#book.id
      * 如果还有一个参数比如 public Book updateBook(Book book,Long id)
      * key='#p1' 就是Long id
+     * 注解: @CachePut(key = "#p0.id")
      * @param book book
      * @return Book
      */
     @Override
-//    @CachePut(key = "#p0.id")
     @CachePut(key = "#book.id")
     public Book updateBook(Book book) {
         bookRepository.save(book);
