@@ -25,10 +25,11 @@
         <module>5_paging_sorting</module>
         <!-- 第六章 缓存和redis -->
         <module>6_cache_redis</module>
-        <!-- 第七章 elasticsearch -->
-        <module>7_elasticsearch_crud</module>
         <!-- 第七章 elasticsearch_crud -->
+        <module>7_elasticsearch_crud</module>
+        <!-- 第七章 7_elasticsearch_query -->
         <module>7_elasticsearch_query</module>
-
+        <!-- 第八章 8_mybatis -->
+        <module>8_mybatis</module>
     </modules>
 </project>

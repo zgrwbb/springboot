@@ -16,6 +16,7 @@
         <module name="6_cache_redis" />
         <module name="7_elasticsearch_crud" />
         <module name="7_elasticsearch_query" />
+        <module name="8_mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
