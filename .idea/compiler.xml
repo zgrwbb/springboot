@@ -18,6 +18,7 @@
         <module name="7_elasticsearch_query" />
         <module name="8_mybatis" />
         <module name="8_mybatis_annotation" />
+        <module name="8_mybatis_multi_datasource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
