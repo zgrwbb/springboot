@@ -3,6 +3,7 @@ package com.example.mybatis.service.impl;
 import com.example.mybatis.dao.CityDao;
 import com.example.mybatis.domain.City;
 import com.example.mybatis.service.CityService;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +28,7 @@ public class CityServiceImpl implements CityService {
      * @return City {@link City}
      */
     @Override
-    public City getCityByName(String cityName) {
+    public City getCityByName(@Param("cityName") String cityName) {
         return cityDao.getCityByName(cityName);
     }
 }

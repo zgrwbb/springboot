@@ -31,5 +31,7 @@
         <module>7_elasticsearch_query</module>
         <!-- 第八章 8_mybatis -->
         <module>8_mybatis</module>
+        <!-- 第八章 8_mybatis_annotation -->
+        <module>8_mybatis_annotation</module>
     </modules>
 </project>

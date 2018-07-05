@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/7_elasticsearch_query/pom.xml" />
         <option value="$PROJECT_DIR$/8_mybaties/pom.xml" />
         <option value="$PROJECT_DIR$/8_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/8_mybatis_annotation/pom.xml" />
       </list>
     </option>
   </component>
