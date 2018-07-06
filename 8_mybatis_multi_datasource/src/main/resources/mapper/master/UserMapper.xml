@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.mybatismutildatasource.dao.master.UserDao">
+    <resultMap id="userResultMap" type="com.example.mybatismutildatasource.domain.master.User">
+        <result column="id" property="id"/>
+        <result column="user_name" property="userName"/>
+        <result column="description" property="description"/>
+    </resultMap>
+    <parameterMap id="User" type="com.example.mybatismutildatasource.domain.master.User"/>
+    <select id="getUserByName" resultMap="userResultMap" parameterMap="User">
+        select *
+        from user
+        where user_name = #{userName}
+    </select>
+</mapper>

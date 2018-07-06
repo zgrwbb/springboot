@@ -13,6 +13,7 @@
       <w>djava</w>
       <w>djdk</w>
       <w>dsun</w>
+      <w>edums</w>
       <w>factorypath</w>
       <w>gradle</w>
       <w>helloworld</w>
@@ -21,6 +22,7 @@
       <w>javaagent</w>
       <w>jedis</w>
       <w>mybaties</w>
+      <w>mybatismutildatasource</w>
       <w>nbbuild</w>
       <w>nbdist</w>
       <w>nbproject</w>

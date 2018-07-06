@@ -1,0 +1,44 @@
+{
+  "properties": [
+    {
+      "name": "cluster.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Description for cluster.datasource.driver-class-name."
+    },
+    {
+      "name": "cluster.datasource.username",
+      "type": "java.lang.String",
+      "description": "Description for cluster.datasource.username."
+    },
+    {
+      "name": "cluster.datasource.password",
+      "type": "java.lang.String",
+      "description": "Description for cluster.datasource.password."
+    },
+    {
+      "name": "cluster.datasource.url",
+      "type": "java.lang.String",
+      "description": "Description for cluster.datasource.url."
+    },
+    {
+      "name": "master.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "description": "Description for master.datasource.driver-class-name."
+    },
+    {
+      "name": "master.datasource.username",
+      "type": "java.lang.String",
+      "description": "Description for master.datasource.username."
+    },
+    {
+      "name": "master.datasource.password",
+      "type": "java.lang.String",
+      "description": "Description for master.datasource.password."
+    },
+    {
+      "name": "master.datasource.url",
+      "type": "java.lang.String",
+      "description": "Description for master.datasource.url."
+    }
+  ]
+}
