@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.mybatisredis.dao.CityDao">
+    <resultMap id="cityResultMap" type="com.example.mybatisredis.domain.City">
+        <result column="id" property="id"/>
+        <result column="province_id" property="provinceId"/>
+        <result column="city_name" property="cityName"/>
+        <result column="description" property="description"/>
+    </resultMap>
+    <parameterMap id="City" type="com.example.mybatisredis.domain.City"/>
+    <!--获取全部城市列表-->
+    <select id="getAllCity" resultMap="cityResultMap">
+        select id, province_id, city_name, description
+        from city
+    </select>
+    <!--根据城市id获取城市-->
+    <select id="getCityById" resultType="com.example.mybatisredis.domain.City">
+        select id, province_id, city_name, description
+        from city
+        where id = #{cityId}
+    </select>
+    <!--保存城市-->
+    <insert id="saveCity" parameterMap="City">
+        insert into
+        city(id, province_id, city_name, description)
+        values(#{id}, #{provinceId}, #{cityName}, #{description})
+    </insert>
+    <!--修改城市-->
+    <update id="updateCity">
+        update city
+        set
+        <if test="provinceId!=null">
+            province_id=#{provinceId}
+        </if>
+        <if test="city_name!=null">
+            city_name=#{cityName}
+        </if>
+        <if test="description!=null">
+            description=#{description}
+        </if>
+        where
+        id=#{id}
+    </update>
+    <!--删除城市-->
+    <delete id="deleteCity">
+        delete
+        from city
+        where id = #{cityId}
+    </delete>
+</mapper>

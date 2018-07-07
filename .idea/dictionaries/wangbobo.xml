@@ -1,35 +1,8 @@
 <component name="ProjectDictionaryState">
   <dictionary name="wangbobo">
     <words>
-      <w>agentlib</w>
-      <w>cacahe</w>
-      <w>cacheable</w>
-      <w>conc</w>
-      <w>dide</w>
-      <w>didea</w>
-      <w>disablealloc</w>
-      <w>disableexceptiontelemetry</w>
-      <w>disabletracing</w>
-      <w>djava</w>
-      <w>djdk</w>
-      <w>dsun</w>
-      <w>edums</w>
-      <w>factorypath</w>
-      <w>gradle</w>
       <w>helloworld</w>
-      <w>ideaagent</w>
-      <w>intelli</w>
-      <w>javaagent</w>
-      <w>jedis</w>
-      <w>mybaties</w>
-      <w>mybatismutildatasource</w>
-      <w>nbbuild</w>
-      <w>nbdist</w>
-      <w>nbproject</w>
-      <w>onlylocal</w>
-      <w>sessionname</w>
       <w>springboot</w>
-      <w>yjpagent</w>
     </words>
   </dictionary>
 </component>

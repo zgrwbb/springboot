@@ -5,24 +5,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/1_helloworld/pom.xml" />
-        <option value="$PROJECT_DIR$/2_config/pom.xml" />
-        <option value="$PROJECT_DIR$/3_web/pom.xml" />
-        <option value="$PROJECT_DIR$/4_validate/pom.xml" />
-        <option value="$PROJECT_DIR$/4_web_thymeleaf/pom.xml" />
-        <option value="$PROJECT_DIR$/5_data_jpa/pom.xml" />
-        <option value="$PROJECT_DIR$/5_paging_sorting/pom.xml" />
-        <option value="$PROJECT_DIR$/6_cache_redis/pom.xml" />
-        <option value="$PROJECT_DIR$/7_elasticsearch/pom.xml" />
-        <option value="$PROJECT_DIR$/7_elasticsearch_query/pom.xml" />
-        <option value="$PROJECT_DIR$/8_mybaties/pom.xml" />
-        <option value="$PROJECT_DIR$/8_mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/8_mybatis_annotation/pom.xml" />
-        <option value="$PROJECT_DIR$/8_mybatis_multi_datasource/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" project-jdk-name="10" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

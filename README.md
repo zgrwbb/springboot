@@ -7,8 +7,8 @@
         <module>3_web</module>
         <!-- 第四章 表单验证案例 -->
         <module>4_validate</module>
-        <!-- 第四章 模板引擎 -->
-        <module>4_validate</module>
+        <!-- 第四章 模板引擎 thymeleaf-->
+        <module>4_web_thymeleaf</module>
         <!-- 第五章 数据存储 -->
         <module>5_data_jpa</module>
         <!-- 第五章 分页牌组案例 -->
@@ -21,5 +21,9 @@
         <module>7_elasticsearch_query</module>
         <!-- 第八章 8_mybatis -->
         <module>8_mybatis</module>
-        <!-- 第八章 8_mybatis_annotation -->
+        <!-- 第八章 8_mybatis_annotation 纯注解-->
         <module>8_mybatis_annotation</module>
+        <!-- 第八章 8_mybatis_multi_datasource 多数据源-->
+        <module>8_mybatis_multi_datasource</module>
+        <!-- 第八章 8_mybatis_redis mybatis整合redis-->
+        <module>8_mybatis_redis</module>        

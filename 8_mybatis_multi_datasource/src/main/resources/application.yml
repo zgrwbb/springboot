@@ -4,6 +4,7 @@ master:
     url: jdbc:mysql://localhost:3306/springboot?characterEncoding=utf8&useSSL=false&serverTimezone=GMT%2B8
     password: 123456
     username: root
+  #  新的驱动程序类是`com.mysql.cj.jdbc.Driver'。 驱动程序通过SPI自动注册，通常不需要手动加载驱动程序类。
   #    driver-class-name: com.mysql.jdbc.Driver
 cluster:
   datasource:
