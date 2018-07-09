@@ -22,7 +22,7 @@ public interface CityService {
      * @param cityId cityId
      * @return City {@link City}
      */
-    City getCityById(Long cityId);
+    Object getCityById(Long cityId);
 
     /**
      * 保存城市
