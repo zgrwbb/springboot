@@ -5,7 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/9_properties/pom.xml" />
+        <option value="$PROJECT_DIR$/9_restful/pom.xml" />
       </list>
     </option>
   </component>

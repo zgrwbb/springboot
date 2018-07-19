@@ -36,10 +36,10 @@ public class CityServiceImpl implements CityService {
     }
 
     @Override
-    @CachePut(key = "city.cityName")
+    @CachePut(key = "#city.id")
     public City saveCity(@Param(value = "city") City city) {
+        cityDao.saveCity(city);
         logger.info("\n---------------"+city.toString());
-        Long cityId=cityDao.saveCity(city);
         return city;
     }
 

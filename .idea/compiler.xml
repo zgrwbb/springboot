@@ -21,8 +21,11 @@
         <module name="8_mybatis_multi_datasource" />
         <module name="8_mybatis_redis" />
         <module name="8_mybatis_redis_annotation" />
-        <module name="9_properties" />
+        <module name="9_restful" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="9_properties" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

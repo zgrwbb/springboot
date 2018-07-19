@@ -35,9 +35,9 @@ public interface CityDao {
      * @param city 城市 {@link City}
      * @return cityId
      */
-    @SelectKey(before = false,statement = "select LAST_INSERT_ID()",keyProperty = "id",resultType=Long.class)
     @Insert("insert into city (province_id,city_name,description) values(#{city.provinceId},#{city.cityName},#{city.description})")
-    Long saveCity(@Param("city") City city);
+    @SelectKey(before = false, statement = "select LAST_INSERT_ID() as id", keyProperty = "city.id", resultType = Long.class)
+    Long saveCity(@Param(value = "city") City city);
 
     /**
      * 修改城市
