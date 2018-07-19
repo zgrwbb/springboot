@@ -12,6 +12,7 @@ import org.springframework.data.redis.serializer.RedisSerializer;
  * @author wangbobo
  * @date 2018/7/9 11:39
  */
+@SuppressWarnings("Duplicates")
 @Configuration
 public class RedisConfig {
     private Logger logger = LoggerFactory.getLogger(RedisConfig.class);
@@ -25,9 +26,6 @@ public class RedisConfig {
         redisTemplate.setKeySerializer(RedisSerializer.string());
         redisTemplate.setHashKeySerializer(RedisSerializer.string());
         redisTemplate.setDefaultSerializer(RedisSerializer.json());
-        /// 设置默认序列化方式 RedisSerializer.json() 用的就是GenericJackson2JsonRedisSerializer
-//        redisTemplate.setValueSerializer(RedisSerializer.json());
-//        redisTemplate.setHashValueSerializer(RedisSerializer.json());
         logger.info("初始化Redis成功");
         return redisTemplate;
     }

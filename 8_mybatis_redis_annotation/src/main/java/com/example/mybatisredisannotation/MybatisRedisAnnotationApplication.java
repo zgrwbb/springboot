@@ -1,16 +1,15 @@
-package com.example;
+package com.example.mybatisredisannotation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * 主入口类
  * @author wangbobo
  */
 @SpringBootApplication
-public class CacheRedisApplication {
+public class MybatisRedisAnnotationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CacheRedisApplication.class, args);
+        SpringApplication.run(MybatisRedisAnnotationApplication.class, args);
     }
 }

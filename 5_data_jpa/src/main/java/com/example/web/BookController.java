@@ -22,6 +22,7 @@ public class BookController {
     private static final String BOOK_FORM_PATH_NAME = "bookForm";
     private static final String BOOK_LIST_PATH_NAME = "bookList";
     private static final String REDIRECT_TO_BOOK_URL = "redirect:/book";
+
     private final BookService bookService;
 
     /**
@@ -31,6 +32,7 @@ public class BookController {
      * 保证返回客户端（调用）的代码的时候是完全初始化的状态
      * 避免了循环依赖
      * 提升了代码的可复用性
+     *
      * 另外setter的方式能用让类在之后重新配置或者重新注入
      *
      * @param bookService bookService

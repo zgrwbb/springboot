@@ -10,6 +10,7 @@ import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
+import javax.validation.constraints.NotEmpty;
 import java.util.List;
 
 /**
@@ -22,7 +23,7 @@ public class BookServiceImpl implements BookService {
     /*
     @Cacheable 触发缓存入口
     @CacheEvict 触发移除缓存
-    @CacahePut 更新缓存
+    @CachePut 更新缓存
     @Caching 将多种缓存操作分组
     @CacheConfig 类级别的缓存注解，允许共享缓存名称
     */
@@ -59,7 +60,7 @@ public class BookServiceImpl implements BookService {
      */
     @Cacheable(key = "#id")
     @Override
-    public Book findById(Long id) {
+    public Book findById( Long id) {
         return bookRepository.getOne(id);
     }
 

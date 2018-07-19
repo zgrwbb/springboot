@@ -1,4 +1,4 @@
-package com.example.cacheredis.cachemanager;
+package com.example.mybatisredisannotation.configuration;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,23 +22,23 @@ import org.springframework.data.redis.serializer.RedisSerializer;
 @Configuration
 public class RedisConfig {
     private Logger logger = LoggerFactory.getLogger(RedisConfig.class);
-    /**
-     * template 用这个
-     */
-    @Bean("redisTemplate")
-    public RedisTemplate<?, ?> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
-        RedisTemplate<?, ?> redisTemplate = new RedisTemplate<>();
-        // 连接工厂
-        redisTemplate.setConnectionFactory(redisConnectionFactory);
-
-        redisTemplate.setKeySerializer(RedisSerializer.string());
-        redisTemplate.setHashKeySerializer(RedisSerializer.string());
-        redisTemplate.setValueSerializer(RedisSerializer.json());
-        redisTemplate.setHashValueSerializer(RedisSerializer.json());
-        redisTemplate.setDefaultSerializer(RedisSerializer.json());
-        logger.info("初始化Redis成功");
-        return redisTemplate;
-    }
+//    /**
+//     * template 用这个
+//     */
+//    @Bean
+//    public RedisTemplate<?, ?> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
+//        RedisTemplate<?, ?> redisTemplate = new RedisTemplate<>();
+//        // 连接工厂
+//        redisTemplate.setConnectionFactory(redisConnectionFactory);
+//
+//        redisTemplate.setKeySerializer(RedisSerializer.string());
+//        redisTemplate.setHashKeySerializer(RedisSerializer.string());
+//        redisTemplate.setValueSerializer(RedisSerializer.json());
+//        redisTemplate.setHashValueSerializer(RedisSerializer.json());
+//        redisTemplate.setDefaultSerializer(RedisSerializer.json());
+//        logger.info("初始化Redis成功");
+//        return redisTemplate;
+//    }
 
     /**
      * 缓存管理器
@@ -55,6 +55,8 @@ public class RedisConfig {
         RedisSerializationContext.SerializationPair<Object> pair = RedisSerializationContext.SerializationPair.fromSerializer(RedisSerializer.json());
         RedisCacheConfiguration redisCacheConfiguration = RedisCacheConfiguration.defaultCacheConfig().serializeValuesWith(pair);
         //初始化RedisCacheManager
+        logger.info("\n-------------------->  初始化RedisCacheManager成功");
         return new RedisCacheManager(redisCacheWriter, redisCacheConfiguration);
     }
 }
+

@@ -37,5 +37,9 @@
         <module>8_mybatis_multi_datasource</module>
         <!-- 第八章 8_mybatis_redis mybatis整合redis-->
         <module>8_mybatis_redis</module>
+        <!-- 第八章 8_mybatis_redis_annotation -->
+        <module>8_mybatis_redis_annotation</module>
+        <!-- 第九章 properties -->
+        <module>9_properties</module>
     </modules>
 </project>

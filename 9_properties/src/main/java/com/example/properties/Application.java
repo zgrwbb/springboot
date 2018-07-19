@@ -1,16 +1,12 @@
-package com.example;
+package com.example.properties;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * 主入口类
- * @author wangbobo
- */
 @SpringBootApplication
-public class CacheRedisApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(CacheRedisApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }

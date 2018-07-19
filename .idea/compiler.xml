@@ -20,6 +20,8 @@
         <module name="8_mybatis_annotation" />
         <module name="8_mybatis_multi_datasource" />
         <module name="8_mybatis_redis" />
+        <module name="8_mybatis_redis_annotation" />
+        <module name="9_properties" />
       </profile>
     </annotationProcessing>
   </component>
