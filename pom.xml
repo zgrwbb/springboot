@@ -41,5 +41,9 @@
         <module>8_mybatis_redis_annotation</module>
         <!-- 第九章 9_restful -->
         <module>9_restful</module>
+        <!-- 第十章 10_validation -->
+        <module>10_validation</module>
+        <!-- 第十一章 11_webflux -->
+        <module>11_webflux</module>
     </modules>
 </project>

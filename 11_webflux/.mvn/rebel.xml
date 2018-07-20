@@ -9,7 +9,7 @@
              xsi:schemaLocation="http://www.zeroturnaround.com http://update.zeroturnaround.com/jrebel/rebel-2_1.xsd">
 
     <classpath>
-        <dir name="D:/IdeaProjects/springboot/8_mybatis_annotation/target/classes">
+        <dir name="D:/IdeaProjects/springboot/11_webflux/target/classes">
         </dir>
     </classpath>
 

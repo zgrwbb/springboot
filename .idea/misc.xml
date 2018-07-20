@@ -6,6 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/9_restful/pom.xml" />
+        <option value="$PROJECT_DIR$/10_validation/pom.xml" />
+        <option value="$PROJECT_DIR$/11_webflux/pom.xml" />
       </list>
     </option>
   </component>
