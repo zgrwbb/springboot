@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/9_restful/pom.xml" />
         <option value="$PROJECT_DIR$/10_validation/pom.xml" />
         <option value="$PROJECT_DIR$/11_webflux/pom.xml" />
+        <option value="$PROJECT_DIR$/12_webflux_restful/pom.xml" />
+        <option value="$PROJECT_DIR$/13_webflux_mogodb/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="10_validation" />
         <module name="11_webflux" />
+        <module name="12_webflux_restful" />
+        <module name="13_webflux_mogodb" />
         <module name="1_helloworld" />
         <module name="2_config" />
         <module name="3_web" />

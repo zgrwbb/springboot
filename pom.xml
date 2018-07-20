@@ -45,5 +45,7 @@
         <module>10_validation</module>
         <!-- 第十一章 11_webflux -->
         <module>11_webflux</module>
+        <!-- 第十二章 12_webflux_restful -->
+        <module>12_webflux_restful</module>
     </modules>
 </project>
