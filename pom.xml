@@ -47,5 +47,7 @@
         <module>11_webflux</module>
         <!-- 第十二章 12_webflux_restful -->
         <module>12_webflux_restful</module>
+
+        <module>13_webflux_mongodb</module>
     </modules>
 </project>
