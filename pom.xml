@@ -47,7 +47,9 @@
         <module>11_webflux</module>
         <!-- 第十二章 12_webflux_restful -->
         <module>12_webflux_restful</module>
-
+        <!-- 第十三章 13_webflux_mongodb -->
         <module>13_webflux_mongodb</module>
+        <!-- 第十四章 14_webflux_thymeleaf -->
+        <module>14_webflux_thymeleaf</module>
     </modules>
 </project>
