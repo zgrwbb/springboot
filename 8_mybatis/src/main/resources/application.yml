@@ -5,7 +5,6 @@ spring:
     url: jdbc:mysql://localhost:3306/springboot
     password: 123456
     username: root
-    driver-class-name: com.mysql.jdbc.Driver
   #  mybatis.config = mybatis 配置文件名称
   #  mybatis.mapperLocations = mapper xml 文件地址
   #  mybatis.typeAliasesPackage = 实体类包路径
