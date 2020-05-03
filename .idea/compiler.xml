@@ -6,28 +6,53 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="10_validation" />
-        <module name="11_webflux" />
-        <module name="12_webflux_restful" />
-        <module name="13_webflux_mongodb" />
         <module name="14_webflux_thymeleaf" />
-        <module name="1_helloworld" />
-        <module name="2_config" />
-        <module name="3_web" />
-        <module name="4_validate" />
-        <module name="4_web_thymeleaf" />
-        <module name="5_data_jpa" />
-        <module name="5_paging_sorting" />
-        <module name="6_cache_redis" />
-        <module name="7_elasticsearch_crud" />
-        <module name="7_elasticsearch_query" />
-        <module name="8_mybatis" />
         <module name="8_mybatis_annotation" />
+        <module name="3_web" />
+        <module name="7_elasticsearch_query" />
+        <module name="12_webflux_restful" />
         <module name="8_mybatis_multi_datasource" />
+        <module name="1_helloworld" />
+        <module name="7_elasticsearch_crud" />
+        <module name="11_webflux" />
+        <module name="2_config" />
         <module name="8_mybatis_redis" />
+        <module name="8_mybatis" />
+        <module name="5_data_jpa" />
+        <module name="10_validation" />
+        <module name="6_cache_redis" />
+        <module name="13_webflux_mongodb" />
+        <module name="4_web_thymeleaf" />
         <module name="8_mybatis_redis_annotation" />
+        <module name="4_validate" />
+        <module name="5_paging_sorting" />
         <module name="9_restful" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="10_validation" options="-parameters" />
+      <module name="11_webflux" options="-parameters" />
+      <module name="12_webflux_restful" options="-parameters" />
+      <module name="13_webflux_mongodb" options="-parameters" />
+      <module name="14_webflux_thymeleaf" options="-parameters" />
+      <module name="1_helloworld" options="-parameters" />
+      <module name="2_config" options="-parameters" />
+      <module name="3_web" options="-parameters" />
+      <module name="4_validate" options="-parameters" />
+      <module name="4_web_thymeleaf" options="-parameters" />
+      <module name="5_data_jpa" options="-parameters" />
+      <module name="5_paging_sorting" options="-parameters" />
+      <module name="6_cache_redis" options="-parameters" />
+      <module name="7_elasticsearch_crud" options="-parameters" />
+      <module name="7_elasticsearch_query" options="-parameters" />
+      <module name="8_mybatis" options="-parameters" />
+      <module name="8_mybatis_annotation" options="-parameters" />
+      <module name="8_mybatis_multi_datasource" options="-parameters" />
+      <module name="8_mybatis_redis" options="-parameters" />
+      <module name="8_mybatis_redis_annotation" options="-parameters" />
+      <module name="9_restful" options="-parameters" />
+    </option>
   </component>
 </project>
