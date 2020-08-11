@@ -67,7 +67,7 @@ public class CityController {
     @GetMapping("/page/list")
     public String listPage(final Model model) {
         final Flux<City> cityFluxList = cityHandler.findAllCity();
-        model.addAttribute("cityList", cityFluxList);
+        model.addAttribute(CITY_LIST_PATH_NAME, cityFluxList);
         return CITY_LIST_PATH_NAME;
     }
 

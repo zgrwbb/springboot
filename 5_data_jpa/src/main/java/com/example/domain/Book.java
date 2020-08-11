@@ -7,6 +7,7 @@ import java.io.Serializable;
 
 /**
  * book 实体类
+ *
  * @author wangbobo
  * @date 2018/6/23 19:41
  */
@@ -35,6 +36,10 @@ public class Book implements Serializable {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
@@ -57,9 +62,5 @@ public class Book implements Serializable {
 
     public void setIntroduction(String introduction) {
         this.introduction = introduction;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 }

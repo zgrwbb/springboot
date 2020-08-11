@@ -17,7 +17,7 @@ public interface CityDao {
      *                 Results 返回 Map 结果集
      * @return {@link City}
      */
-    @Select("select * from city where city_name=#{cityName} ")
+    @Select({"select * from city where city_name=#{cityName} "})
     @Results({
             @Result(property = "id", column = "id"),
             @Result(property = "provinceId", column = "province_id"),

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class CityServiceImpl implements CityService {
-    private CityDao cityDao;
+    private final CityDao cityDao;
 
     @Autowired
     public CityServiceImpl(@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection") CityDao cityDao) {

@@ -9,7 +9,6 @@ import java.util.Objects;
  * @author wangbobo
  * @date 2018/7/4 22:08
  */
-@SuppressWarnings("ALL")
 public class City implements Serializable {
     /**
      * 城市编号 主键  Id
